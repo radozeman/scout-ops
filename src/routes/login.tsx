@@ -1,3 +1,4 @@
+import { signIn } from '@/modules/auth/auth-client'
 import { createFileRoute } from '@tanstack/react-router'
 
 const Route = createFileRoute('/login')({
@@ -5,7 +6,8 @@ const Route = createFileRoute('/login')({
 })
 
 function RouteComponent() {
-  return <div>Hello "/login"!</div>
+
+  return <div><button onClick={signIn}>Login with Github</button></div>
 }
 
 export { Route }

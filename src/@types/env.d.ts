@@ -17,6 +17,8 @@ declare global {
       readonly NODE_ENV: 'development' | 'production' | 'test'
       readonly BETTER_AUTH_SECRET: string
       readonly DATABASE_URL: string
+      readonly GITHUB_CLIENT_ID: string
+      readonly GITHUB_CLIENT_SECRET: string
     }
   }
 }
