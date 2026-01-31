@@ -4,7 +4,7 @@ import { TanStackDevtools } from '@tanstack/react-devtools'
 
 import appCss from '@/modules/ui/theme/global.css?url'
 
-export const Route = createRootRoute({
+ const Route = createRootRoute({
   head: () => ({
     meta: [
       {
@@ -53,3 +53,5 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     </html>
   )
 }
+
+export { Route }
