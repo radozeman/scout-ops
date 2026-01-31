@@ -3,6 +3,9 @@ node_modules
 dist
 dist-ssr
 *.local
+*.prod
+*.staging
+*.production
 count.txt
 .env
 .nitro
