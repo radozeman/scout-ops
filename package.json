@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "test": "vitest run",
     "lint": "eslint",
-    "format": "prettier",
+    "format": "prettier --write .",
     "check": "prettier --write . && eslint --fix"
   },
   "dependencies": {
@@ -49,6 +49,8 @@
     "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "^5.0.4",
     "drizzle-kit": "^0.31.8",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
     "jsdom": "^27.0.0",
     "prettier": "^3.5.3",
     "tsx": "^4.21.0",
