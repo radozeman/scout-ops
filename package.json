@@ -9,7 +9,8 @@
     "test": "vitest run",
     "lint": "eslint",
     "format": "prettier --write .",
-    "check": "prettier --write . && eslint --fix"
+    "check": "prettier --write . && eslint --fix",
+    "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
     "@base-ui/react": "^1.1.0",

@@ -1,6 +1,6 @@
 import { drizzle } from 'drizzle-orm/neon-http'
-import { env } from '@/config/env'
+import { serverEnv } from '@/config/env/server'
 
-const db = drizzle(env.server.DATABASE_URL)
+const db = drizzle(serverEnv.DATABASE_URL)
 
 export { db }
